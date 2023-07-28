@@ -1,0 +1,25 @@
+body {
+    margin: auto;
+}
+
+.container {
+    background-color: rgb(169, 216, 255);
+    padding: 2rem;
+    border-radius: 5%;
+}
+
+.inputs {
+    width: 200px;
+}
+
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    margin-bottom: 30px;
+}
+
