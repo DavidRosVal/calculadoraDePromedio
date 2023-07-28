@@ -56,9 +56,10 @@ let promedio = () => {
   for (let key in notasYpeso) {
     let notaPlaceholder = document.getElementById(key);
     if (notasYpeso[key].nota === 0) {
-      notaPlaceholder.placeholder = (
-        notaPromediaMinimaDeCadaCampo / notasYpeso[key].peso
-      ).toFixed(2);
+      notaPlaceholder.placeholder =
+        (notaPromediaMinimaDeCadaCampo / notasYpeso[key].peso).toFixed(2) < 0
+          ? ''
+          : (notaPromediaMinimaDeCadaCampo / notasYpeso[key].peso).toFixed(2);
     }
   }
 
