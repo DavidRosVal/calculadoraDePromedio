@@ -1,11 +1,17 @@
 body {
-    margin: auto;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     background-color: rgb(169, 216, 255);
     padding: 2rem;
-    border-radius: 5%;
+    border-radius: 2%;
+    width: 100px;
 }
 
 .inputs {
